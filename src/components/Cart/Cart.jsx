@@ -21,12 +21,12 @@ function Cart() {
             ) : (
                 <ul>
                     {cart.map(book => (
-                        <li key={book.asin} className="d-flex align-items-center justify-content-between">
+                        <li key={book.asin} className="d-flex align-items-center justify-content-between my-2">
                             <div>
                                 {book.title} - {book.price.toFixed(2)}€
                             </div>
                             <div>
-                                <Button variant="danger" onClick={() => removeFromCart(book)}>Rimuovi</Button> {/* Applica la classe Bootstrap "btn-danger" */}
+                                <Button variant="danger" onClick={() => removeFromCart(book)}>Rimuovi</Button> 
                             </div>
                         </li>
                     ))}
