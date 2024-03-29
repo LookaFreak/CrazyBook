@@ -15,8 +15,8 @@ function Footer() {
     return (
         <footer style={footerStyle}>
             <div className="container">
-                <h6>© 2024 CrazyBook - Sviluppato da Alessandro Camarda</h6>
-                <ul className="list-unstyled">
+                <h6>© 2024 CrazyBook - Create By Alessandro Camarda</h6>
+                <ul className="list-unstyled  d-flex justify-content-around">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Servizi</a></li>
                     <li><a href="#">Contattaci</a></li>
