@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import SingleBook from "../SingleBook/SingleBook";
+import {SingleBook} from "../SingleBook/SingleBook";
 import { useContext } from "react";
 import { ThemeContext } from "../../context/ThemeContextProvider";
 

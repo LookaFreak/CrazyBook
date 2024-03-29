@@ -9,7 +9,7 @@ const {allBooks} = props;
 
   return (
     <>
-        <MyNav />
+        {/* <MyNav /> */}
         <Container fluid>
             <AllTheBooks allBooks={allBooks}/>
         </Container>

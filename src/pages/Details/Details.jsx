@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { Container } from 'react-bootstrap';
-import SingleBook from '../../components/SingleBook/SingleBook';
+import {SingleBook} from '../../components/SingleBook/SingleBook';
 import CommentArea from '../../components/CommentArea/CommentArea';
 import MyNav from '../../components/MyNav/MyNav';
 import Footer from '../../components/Footer/Footer';
@@ -31,7 +31,7 @@ export default function Details(props) {
         <>
             {
                 resBook && <>
-                    <MyNav hiddenSearch />
+                    {/* <MyNav hiddenSearch /> */}
                     <Container className='p-5'>
                         {}
                         <SingleBook book={resBook} details />
